@@ -63,7 +63,7 @@ const Skills = () => {
                 {skill.name}
               </h3>
               <p className="text-sm text-gray-400">
-                {skill.level}
+                
               </p>
             </div>
           );
