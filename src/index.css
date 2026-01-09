@@ -1,3 +1,4 @@
+@import "swiper/css";
 @import "tailwindcss";
 /* Hide scrollbar for Chrome, Safari and Opera */
 .scrollbar-hide::-webkit-scrollbar {

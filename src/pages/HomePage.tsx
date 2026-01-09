@@ -3,6 +3,7 @@ import Hero from "../compounts/hero"
 import Footer from "../compounts/Footer"
 import Skills from "../compounts/skills"
 import About from "../compounts/About"
+import ExperienceSection from "../compounts/experience"
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <About/>
 
       <Skills/>
+      <ExperienceSection/>
       
       
       
