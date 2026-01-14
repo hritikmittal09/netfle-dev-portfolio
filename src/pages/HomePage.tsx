@@ -4,6 +4,7 @@ import Footer from "../compounts/Footer"
 import Skills from "../compounts/skills"
 import About from "../compounts/About"
 import ExperienceSection from "../compounts/experience"
+import AwardsCarousel from "../compounts/AwardsCarousel"
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
 
       <Skills/>
       <ExperienceSection/>
+      <AwardsCarousel/>
       
       
       
