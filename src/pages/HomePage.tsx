@@ -6,6 +6,7 @@ import About from "../compounts/About"
 import ExperienceSection from "../compounts/experience"
 import AwardsCarousel from "../compounts/AwardsCarousel"
 import FAQ from "../compounts/FAQ"
+import ProjectsSection from "../compounts/ProjectsSection"
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
 
       <Skills/>
       <ExperienceSection/>
+      <ProjectsSection/>
       <AwardsCarousel/>
       
       
