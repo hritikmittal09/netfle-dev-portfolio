@@ -5,6 +5,7 @@ import Skills from "../compounts/skills"
 import About from "../compounts/About"
 import ExperienceSection from "../compounts/experience"
 import AwardsCarousel from "../compounts/AwardsCarousel"
+import FAQ from "../compounts/FAQ"
 
 const HomePage = () => {
   return (
@@ -19,7 +20,7 @@ const HomePage = () => {
       <AwardsCarousel/>
       
       
-      
+      <FAQ/>
       <Footer/>
     </div>
 
