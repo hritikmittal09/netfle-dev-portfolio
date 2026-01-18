@@ -2,14 +2,7 @@ import heroImage from "../assets/hero.jpg";
 import TextType from "./AmatedHeader";
 import ContactLinks from "./contact";
 
-const downloadResume = () => {
-  const link = document.createElement("a");
-  link.href = "/Resume/HritikMittalResume.pdf";
-  link.download = "Hritik_Mittal_Resume.pdf";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-};
+
 
 
 
