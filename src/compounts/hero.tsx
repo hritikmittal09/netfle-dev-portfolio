@@ -1,5 +1,6 @@
 import heroImage from "../assets/hero.jpg";
 import TextType from "./AmatedHeader";
+import ContactLinks from "./contact";
 
 const downloadResume = () => {
   const link = document.createElement("a");
@@ -49,6 +50,7 @@ const Hero = () => {
           Frontend & Backend Developer crafting high-performance,
           scalable web applications with clean architecture.
         </p>
+        <ContactLinks/>
 
         {/* CTA Buttons */}
         <div className="flex gap-4">
