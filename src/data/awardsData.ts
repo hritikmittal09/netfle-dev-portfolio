@@ -4,6 +4,8 @@ import Rag from '../assets/images/deeplearning.jpg'
 import leetcode from '../assets/images/leetcode.png' ;
 import hack from '../assets/images/hackerrank.png' ;
 import delloit from '../assets/images/deloit.jpg'
+import awsfull from "../assets/images/awscloudtraing-101 .png"
+import Aicerti from "../assets/images/OCI-ai-fundations .jpeg"
 
 export interface Award {
   title: string;
@@ -54,6 +56,20 @@ export const awards: Award[] = [
     link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_dn3wSvDZ9tA8e8TdE_1752181083620_completion_certificate.pdf",
     linkText: "Show Credential",
   },
+  {
+    title: "AWS Educate Introduction to Cloud 101",
+    logo: awsfull,
+    description: "Completed the AWS Educate Introduction to Cloud 101 program, gaining foundational skills in AWS cloud services and cloud computing concepts.",
+    link: "https://www.credly.com/earner/earned/badge/f8c0c06b-e806-44cd-98e2-73f67e667aff",
+    linkText: "Show Credential"
+  },
+  {
+    title: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+    logo: Aicerti,
+    description: "The Oracle Cloud Infrastructure (OCI) AI Foundations certification introduces learners to AI and ML fundamentals, focusing on their practical use within OCI. It’s beginner-friendly and requires no prior technical experience.",
+    link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=E533DE5350F95FC8FC4D3016C2CF516334FB2CE7CCFCC5597412EC6BD70E87A7",
+    linkText: "Show Credential"
+  }
 ];
 
 
