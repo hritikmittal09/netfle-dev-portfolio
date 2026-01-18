@@ -12,10 +12,10 @@ const Header = () => {
 
         {/* Navigation */}
         <nav className="hidden md:flex gap-6 text-gray-300">
-          <a href="#about" className="hover:text-white transition">About</a>
-          <a href="#skills" className="hover:text-white transition">Skills</a>
-          <a href="#projects" className="hover:text-white transition">Projects</a>
-          <a href="#contact" className="hover:text-white transition">Contact</a>
+          <a href="https://github.com/hritikmittal09" target="_black" className="hover:text-white transition">Github</a>
+          <a href="https://www.linkedin.com/in/hritik-mittal09/"  target="_black" className="hover:text-white transition">linkedin</a>
+       <a href="mailto:hritikmttal77@gmail.com"className="hover:text-white transition">Email</a>
+      
         </nav>
 
         {/* CTA */}

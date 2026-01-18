@@ -1,6 +1,17 @@
 import heroImage from "../assets/hero.jpg";
 import TextType from "./AmatedHeader";
 
+const downloadResume = () => {
+  const link = document.createElement("a");
+  link.href = "/Resume/HritikMittalResume.pdf";
+  link.download = "Hritik_Mittal_Resume.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
+
+
 const Hero = () => {
   return (
     <section className="relative h-screen flex items-center text-white overflow-hidden">
@@ -41,12 +52,14 @@ const Hero = () => {
 
         {/* CTA Buttons */}
         <div className="flex gap-4">
-          <button className="bg-red-600 hover:bg-red-700 transition px-8 py-3 rounded-md font-semibold text-black shadow-lg">
-            ▶ View Projects
-          </button>
-          <button className="bg-gray-700/80 hover:bg-gray-600 transition px-8 py-3 rounded-md">
-            About Me
-          </button>
+          <a
+  href="/Resume/Hritik_Mittal_Resume.pdf"
+  download
+  className="px-6 py-2 bg-red-600 hover:bg-red-700 text-white rounded"
+>
+  Download Resume
+</a> 
+          
         </div>
       </div>
 
